@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: black;
+}
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+body header .presentacion {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.product {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.escritorio {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+img{
+    transition: 0.5s;
+    object-fit: cover;
+}
+img:hover {
+    transform: scale(1.2);
+}
+.escritorio h4 {
+    justify-content: center;
+}
+.combo h4 {
+    justify-content: center;
+}
+.muebles h4 {
+    justify-content: center;
+}
+.combo {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+.muebles {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+
+footer h2 {
+    margin: 0;
+    
+}
+
+footer p {
+    margin: 5px 0;
+}
